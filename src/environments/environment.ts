@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiUrls: {
+    books: 'https://gutendex.com/books?ids=1,2,3,4,5,6,7,8,9,10',
+    dogImage: 'https://dog.ceo/dog-api/breeds-list'
+  },
+  firebase: {
+
+    
+  }
 };
 
 /*
