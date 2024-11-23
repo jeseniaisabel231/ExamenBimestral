@@ -6,14 +6,14 @@
 
 <ion-content>
   <ion-list>
-    <ion-item *ngFor="let item of items">
+    <ion-item *ngFor="let img of image; let i=index">
       <ion-thumbnail slot="start">
-        <img [src]="item.imageUrl" alt="Imagen">
+        <img [src]="img" alt="Imagen">
       </ion-thumbnail>
       <ion-label>
-        <h2>{{ item.title }}</h2>
+        <h2>{{ books[i] }}</h2>
       </ion-label>
-      <ion-button (click)="saveItem(item)" slot="end">Guardar</ion-button>
+      <ion-button (click)="saveItem(img, books[i])" slot="end">Guardar</ion-button>
     </ion-item>
   </ion-list>
 </ion-content>

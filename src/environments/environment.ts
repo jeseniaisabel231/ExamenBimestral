@@ -5,11 +5,17 @@
 export const environment = {
   production: false,
   apiUrls: {
-    books: 'https://gutendex.com/books?ids=1,2,3,4,5,6,7,8,9,10',
-    dogImage: 'https://dog.ceo/dog-api/breeds-list'
+    books: 'https://gutendex.com/books?ids=',
+    dogImage: 'https://dog.ceo/api/breeds/image/random'
   },
   firebase: {
-
+    apiKey: "AIzaSyC79D1lmkT-BMpwxhOD7Jvzx53YXI1BQQs",
+    authDomain: "b-749b4.firebaseapp.com",
+    projectId: "b-749b4",
+    storageBucket: "b-749b4.firebasestorage.app",
+    messagingSenderId: "616602352669",
+    appId: "1:616602352669:web:1b5f34ea8beda23b1b9af4",
+    measurementId: "G-LJEG66DC5J"
     
   }
 };
